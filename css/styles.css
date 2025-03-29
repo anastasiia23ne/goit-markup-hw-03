@@ -159,6 +159,9 @@ font-family: "Raleway", sans-serif;
     margin-bottom: 72px;
 }
 
+.principles-title {
+    visibility: hidden;
+}
 .principles-subtitles, .team-subtitles, .portfolio-subtitles {
     font-weight: 500;
         font-size: 20px;
@@ -171,11 +174,14 @@ font-family: "Raleway", sans-serif;
 .principles-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px)/4);
 }
 
 .principles-item, .team-item {
     background-color: #ffffff;
+}
+
+.principles-item {
+        flex-basis: calc((100% - 72px)/4);
 }
 
 .principles-item-text, .team-item-text, .portfolio-item-text {
@@ -193,7 +199,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .team-item {
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-text {
